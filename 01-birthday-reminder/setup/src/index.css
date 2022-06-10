@@ -40,7 +40,7 @@ Variables
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
   --max-width: 1170px;
-  --fixed-width: 450px;
+  --fixed-width: 600px;
   --clr-pink: #f28ab2;
 }
 /*
@@ -188,4 +188,11 @@ main {
   border-radius: var(--radius);
   outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
+}
+
+.my-btn {
+  font-size: .9rem !important;
+  margin: 0 !important;
+  width: 33.3% !important;
+  padding: 10px !important;
 }
