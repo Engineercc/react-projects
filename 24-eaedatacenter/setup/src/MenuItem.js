@@ -9,7 +9,7 @@ const MenuItem = ({ id, baslik, icerik, gorsel, amperaj }) => {
       <div className="item-info">
         <header style={{ alignItems: "center" }}>
           <h4>{baslik}</h4>
-          <h4 className="price filter-btn amperaj">{amperaj ? amperaj : ""}</h4>
+          <h4 className="price filter-btn amperaj">{amperaj}</h4>
         </header>
         <p className="item-text">
           {more ? icerik : `${lessTitle}...`}
